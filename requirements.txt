@@ -1,0 +1,10 @@
+ddgs>=9.0.0
+fastapi>=0.115.0
+langgraph>=0.2.0
+openai>=1.50.0
+python-dotenv>=1.0.1
+qdrant-client>=1.12.0
+requests>=2.31.0
+sentence-transformers>=3.0.0
+streamlit>=1.39.0
+uvicorn[standard]>=0.30.0
