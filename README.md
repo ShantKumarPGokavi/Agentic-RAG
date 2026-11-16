@@ -1,8 +1,7 @@
-# Self-Correcting RAG & Web Fallback Assistant
+# Agentic RAG: Self-Correcting Retrieval & Web Fallback Engine
 
-A small question-answering app that checks its local company-policy knowledge
-base first. If an LLM grader decides the retrieved documents do not answer the
-question, the workflow searches DuckDuckGo and uses those results instead.
+A stateful Agentic RAG assistant built with **LangGraph**, **Qdrant**, **Sentence-Transformers**, **FastAPI**, and **Streamlit**. It queries a local Qdrant vector database first, uses an LLM retrieval-grading node to evaluate whether the retrieved context is sufficient, and autonomously falls back to live web search (`ddgs` + Wikipedia API) to prevent hallucinations.
+
 
 ## Architecture
 
